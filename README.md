@@ -1,7 +1,7 @@
 # Reinforcement Trading
 This project implements a Deep Q-Network (DQN), a reinforcement learning algorithm, to train an agent for automated stock trading. The agent learns to make decisions—buy, sell, or hold—based on historical stock price data with the goal of maximizing its portfolio value over time.
 
-### 📊 Project Overview
+###  Project Overview
 The core of this project is a custom trading environment built to simulate stock market interactions. A reinforcement learning agent, specifically a DQNAgent, is trained within this environment. The agent's objective is to develop a profitable trading strategy by learning from the consequences of its actions.
 
 ### How It Works
@@ -13,7 +13,7 @@ Training: The agent is trained over a specified number of episodes. In each epis
 
 Evaluation: After training, the agent's performance is evaluated on a separate test dataset to see how well it can trade on unseen data. The portfolio value over time is plotted to visualize the agent's profitability.
 
-### 🛠️ Technologies & Libraries Used
+###  Technologies & Libraries Used
 This project is built using Python and relies on the following libraries:
 
 TensorFlow & Keras: For building and training the deep neural network that powers the DQN agent.
